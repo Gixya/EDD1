@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-// ===== CLASSE DATA =====
+// CLASSE DATA 
 class Data {
 private:
     int dia, mes, ano;
@@ -26,7 +26,7 @@ public:
     void setAno(int a) { ano = a; }
 };
 
-// ===== CLASSE CONTATO =====
+// CLASSE CONTATO
 class Contato {
 private:
     string nome;
@@ -61,7 +61,7 @@ public:
     }
 };
 
-// ===== MAIN =====
+// MAIN
 int main() {
     Contato contatos[5];
 
